@@ -12,3 +12,5 @@ hi def link IntroDisabled Comment
 hi def link IntroDisableOp IntroDisabled
 
 syn cluster cParenGroup add=IntroParen,IntroKeyword,IntroDisableOp,IntroDisabled
+syn cluster cMultiGroup add=IntroParen,IntroKeyword,IntroDisableOp,IntroDisabled
+syn cluster cPreProcGroup add=IntroParen,IntroKeyword,IntroDisableOp,IntroDisabled
